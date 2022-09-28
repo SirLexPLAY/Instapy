@@ -5,11 +5,17 @@ Fork/last ned filene og legg dem inn i en mappe. Ved hjelp av en terminal, navig
 
 ## Brukermanual
 Kommandolinje grensesnitt brukes her. For å benytte deg av programmet, skriver du kommandoene på formen 
+
 `python3 -m instapy <arguments>`
+
 For å legge et svart-hvitt filter på et .jpg bilde, la oss si filen heter `ditt_bilde.jpg`, skriv da følgende:
+
 `python3 -m instapy ditt_bilde.jpg -g`
+
 Du kan også skalere bilde til å være mindre. Vil du bildet skal være 3 ganger så mindre, skriver du tilsvarende:
+
 `python3 -m instapy ditt_bilde.jpg -g -sc 3`
+
 Vær obs på at kun positive heltall tas som parameter.
 
 Her er listen over parametrene:
